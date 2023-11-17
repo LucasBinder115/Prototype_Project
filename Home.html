@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Writer's Website</title>
+    <link rel="stylesheet" type="text/css" href="Fortify.css">
+</head>
+<body>
+
+<script>
+
+function confirmarVoltar() {
+    const confirmado = window.confirm('Tem certeza que quer voltar para a página inicial?');
+
+    if (confirmado) {
+      l
+        window.location.href = "Home.html";
+    }
+}
+</script>
+
+    <header>
+        <h1>Bem-vindo ao Fortify Books</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="confirmarVoltar()">Home</a></li>
+                <li><a href="story.html">Histórias</a></li>
+                <li><a href="manga.html">Mangá</a></li>
+                <li><a href="write.html">Escrever</a></li>
+                <li><a href="register.html">Registrar</a></li>
+				<li><a href="Creator.html">SOBRE O CRIADOR DO SITE:</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>Venha Participar da Comunidade! <a href="register.html">Registre-se Aqui!!</a></p>
+    
+        <p><a href="#" onclick="confirmarVoltar()">Voltar para a Página Inicial</a></p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
